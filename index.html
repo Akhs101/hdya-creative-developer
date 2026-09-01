@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M,Akhsya Hidayat — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader"><div class="loader-mark">A<span>.</span></div><div class="loader-bar"><i></i></div></div>
+<div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+<div class="ambient ambient-1"></div><div class="ambient ambient-2"></div><canvas id="particles"></canvas><div class="grid-bg"></div>
+
+<header class="navbar" id="navbar">
+<a class="brand magnetic" href="#home">akhsa<span>.</span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Buka menu"><span></span><span></span></button>
+<nav id="navMenu"><a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#contact">Contact</a></nav>
+<a class="nav-cta magnetic" href="#contact">Let's Talk <b>↗</b></a>
+</header>
+
+<main>
+<section class="hero section" id="home">
+<div class="hero-copy reveal">
+<div class="eyebrow"><span></span><span id="typing"></span><span class="caret">|</span></div>
+<h1>Building <em>digital</em><br><span>experiences.</span></h1>
+<p class="hero-text">Hi, I'm <strong>M,Akhsya Hidayat</strong>. A creative student exploring web development, computer networking, and modern digital experiences.</p>
+<div class="hero-actions"><a href="#projects" class="btn btn-primary magnetic">Explore Work <span>↗</span></a><a href="#about" class="btn btn-ghost magnetic">About Me</a></div>
+<div class="quick-stats"><div><strong>03+</strong><small>CORE SKILLS</small></div><div><strong>∞</strong><small>CURIOSITY</small></div><div><strong>2026</strong><small>BUILDING NOW</small></div></div>
+</div>
+<div class="hero-art reveal">
+<div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div><div class="glow-ball"></div>
+<div class="profile-frame tilt" data-tilt>
+<div class="profile-top"><span>AKHSA / PROFILE</span><span>01</span></div>
+<div class="profile-photo"><img src="c:\Users\ADMIN\Downloads\astaa.jpeg"><div class="scanline"></div><div class="photo-note">YOUR<br>PHOTO</div></div>
+<div class="profile-bottom"><span>CREATIVE</span><span>TKJ • WEB • NETWORK</span></div>
+</div>
+<div class="float-card card-one"><span>✦</span><b>Creative<br>Mindset</b></div>
+<div class="float-card card-two"><small>BASED IN</small><b>INDONESIA</b></div>
+<div class="scroll-hint"><span></span> SCROLL TO EXPLORE</div>
+</div>
+</section>
+
+<section class="marquee"><div class="marquee-track"><span>WEB DEVELOPMENT</span><i>✦</i><span>NETWORKING</span><i>✦</i><span>CREATIVE DESIGN</span><i>✦</i><span>WEB DEVELOPMENT</span><i>✦</i><span>NETWORKING</span><i>✦</i></div></section>
+
+<section class="section about-section" id="about">
+<div class="section-label reveal">01 / ABOUT ME</div>
+<div class="about-layout"><div class="reveal"><h2>Curious mind.<br><span>Digital maker.</span></h2></div><div class="about-copy reveal"><p>Saya seorang pelajar yang tertarik pada teknologi dan kreativitas. Saya menikmati proses mengubah ide sederhana menjadi tampilan web yang rapi, interaktif, dan nyaman digunakan.</p><p>Selain web development, saya juga mempelajari jaringan komputer dan berbagai eksperimen digital sebagai bagian dari perjalanan belajar saya.</p><div class="signature">AKHSA<span>.</span></div></div></div>
+<div class="skills-grid">
+<article class="skill reveal"><span>01</span><div class="skill-icon">&lt;/&gt;</div><h3>Web Development</h3><p>HTML, CSS & JavaScript dengan fokus pada UI yang modern dan responsive.</p></article>
+<article class="skill reveal"><span>02</span><div class="skill-icon">⌁</div><h3>Networking</h3><p>Computer networking, konfigurasi dasar, dan pemahaman sistem jaringan.</p></article>
+<article class="skill reveal"><span>03</span><div class="skill-icon">✦</div><h3>Creative Design</h3><p>Eksplorasi visual, layout, motion, dan pengalaman digital yang menarik.</p></article>
+</div>
+</section>
+
+<section class="section projects-section" id="projects">
+<div class="section-label reveal">02 / SELECTED WORK</div>
+<div class="projects-head reveal"><h2>Things I've<br><span>built.</span></h2><p>Beberapa project dan eksperimen yang menjadi bagian dari proses belajar dan eksplorasi.</p></div>
+<div class="projects-grid">
+<article class="project-card project-large reveal" data-tilt><div class="project-image web-ui"><div class="window"><div class="window-bar"><i></i><i></i><i></i><span>akhsa.portfolio</span></div><div class="window-content"><small>HELLO, I'M</small><b>AKHSA.</b><div class="fake-lines"><i></i><i></i><i></i></div></div></div></div><div class="project-meta"><div><small>01 / WEB</small><h3>Personal Portfolio</h3><p>Modern portfolio website</p></div><a href="#contact" class="round-arrow magnetic">↗</a></div></article>
+<article class="project-card reveal" data-tilt><div class="project-image network-art"><div class="net-line nl1"></div><div class="net-line nl2"></div><div class="net-line nl3"></div><b>NETWORK</b><i class="node nn1"></i><i class="node nn2"></i><i class="node nn3"></i><i class="node nn4"></i></div><div class="project-meta"><div><small>02 / NETWORK</small><h3>Network Project</h3><p>Computer networking</p></div><a href="#contact" class="round-arrow magnetic">↗</a></div></article>
+<article class="project-card reveal" data-tilt><div class="project-image design-art"><div class="shape shape-a"></div><div class="shape shape-b"></div><div class="shape shape-c"></div><span>UI<br>LAB</span></div><div class="project-meta"><div><small>03 / DESIGN</small><h3>UI Exploration</h3><p>Visual & interaction</p></div><a href="#contact" class="round-arrow magnetic">↗</a></div></article>
+</div>
+</section>
+
+<section class="section contact-section" id="contact"><div class="contact-glow"></div><div class="section-label reveal">03 / CONTACT</div><div class="contact-inner reveal"><p class="contact-kicker">HAVE AN IDEA?</p><h2>Let's make<br><span>it happen.</span></h2><p class="contact-text">Terbuka untuk diskusi project, kolaborasi, atau sekadar ngobrol tentang teknologi.</p><a class="btn btn-primary big magnetic" href="mailto:emailkamu@gmail.com">Get In Touch <span>↗</span></a></div></section>
+</main>
+
+<footer><a class="brand" href="#home">akhsa<span>.</span></a><p>© <span id="year"></span> M,Akhsya Hidayat</p><div><a href="#">Instagram</a><a href="#">GitHub</a><a href="#">LinkedIn</a></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
